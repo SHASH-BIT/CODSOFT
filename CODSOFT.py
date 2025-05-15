@@ -1,7 +1,5 @@
-#dynamic programming in python
-#simple calculator
-
-
+#Dynamic programming in python
+#Simple Calculator
 def calculator():
     print("Simple Calculator")
     print("Select operation:")
@@ -37,7 +35,6 @@ def calculator():
     print(f"{num1}{operation}{num2} = {result}")
 calculator()
 
-
 OUTPUT(Simple Calculator)
 Select operation:
 1. ADD
@@ -51,8 +48,7 @@ Enter the operation(1/2/3/4): 3
 
 
 
-#password generator
-
+#Password Generator
 import random 
 import string
 def generate_password(length):
