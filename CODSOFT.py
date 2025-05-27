@@ -1,5 +1,5 @@
 #Dynamic programming in python
-#Simple Calculator
+#SIMPLE CALCULATOR
 def calculator():
     print("Simple Calculator")
     print("Select operation:")
@@ -48,7 +48,7 @@ Enter the operation(1/2/3/4): 3
 
 
 
-#Password Generator
+#PASSWORD GENERATOR
 import random 
 import string
 def generate_password(length):
@@ -91,7 +91,7 @@ Enter the desired password length: 4
 Generated Password :3B\l
 
 
-#Contact Book
+#CONTACT BOOK MANAGER
 import tkinter as tk
 from tkinter import messagebox, simpledialog
 
