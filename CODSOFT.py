@@ -1,4 +1,5 @@
 #Dynamic programming in python
+#TASK 1
 #SIMPLE CALCULATOR
 def calculator():
     print("Simple Calculator")
@@ -48,6 +49,7 @@ Enter the operation(1/2/3/4): 3
 
 
 
+#TASK 2
 #PASSWORD GENERATOR
 import random 
 import string
@@ -75,9 +77,6 @@ def generate_password(length):
 def display_password(password):
     if password :
         print(f"Generated Password :{password}")
-
-
-
 try:
     user_input= int(input("Enter the desired password length: "))
     pwd= generate_password(user_input)
@@ -91,6 +90,7 @@ Enter the desired password length: 4
 Generated Password :3B\l
 
 
+#TASK 3
 #CONTACT BOOK MANAGER
 import tkinter as tk
 from tkinter import messagebox, simpledialog
